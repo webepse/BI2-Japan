@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.slide{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#home{
+    background-color: gray;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    display: flex;
+}
+
+header #logo{
+    color: white;
+    margin-right: 100px;
+    padding: 25px;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+header nav ul li{
+    padding: 25px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#home .wrapper{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+#jumbotron{
+    color: white;
+    width: 30%;
+}
+
+#jumbotron h3{
+    font-size: 20px;
+}
+
+#jumbotron h1{
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: block;
+    background-color: red;
+    padding: 10px 20px;
+    width:fit-content;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
