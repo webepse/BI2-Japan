@@ -86,3 +86,51 @@ header nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+#pres{
+    display: flex;
+    color: white;
+}
+
+.gauche{
+    width: 50%;
+    background-color: black;
+}
+
+.droite{
+    width: 50%;
+    background-color: red;
+}
+
+#pres .droite{
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#pres .gauche{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    color: red;
+    border: solid 1px red;
+    margin: 20px 0;
+    width: 15%;
+}
+
+blockquote{
+    font-style: italic;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+
+#pres ul li
+{
+    margin: 10px 20px; 
+}
+
+#pres p{
+    margin: 20px 0;
+}
