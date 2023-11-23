@@ -98,7 +98,7 @@ header nav ul li a{
 
 .gauche{
     width: 50%;
-    background-color: black;
+    background-color: #222222;
 }
 
 .droite{
@@ -162,4 +162,47 @@ blockquote{
 
 .info{
     padding: 15px;
+}
+
+#contact{
+    display: flex;
+    color: white;
+}
+
+#contact .droite{
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: right center;
+}
+
+.form-group{
+    width: 100%;
+    margin: 20px 0;
+   
+}
+
+.form-group input{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group textarea{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 3px;
+    height: 300px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type=submit]
+{
+    width: fit-content;
+}
+
+#contact h2{
+    margin-top: 30px;
+    font-size: 30px;
 }
